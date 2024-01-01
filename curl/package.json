@@ -1,0 +1,23 @@
+{
+  "name": "ccurl",
+  "version": "1.0.0",
+  "description": "My own implementation of curl.",
+  "main": "dist/index.js",
+  "bin": {
+    "ccurl": "dist/bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Devansu Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
